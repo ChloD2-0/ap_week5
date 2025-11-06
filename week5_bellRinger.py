@@ -45,6 +45,12 @@ info = "Python is fun. Fun is good. Good is subjective."
 # c. Reverse the positions of the words, but keep the characters in each word in the same order.
 words = info.split() [::3]
 print(info [::-1])
+find_word = "subjective"
+search_word = info.find("subjective")
+if "subjectice" in info:
+print(find_word) 
+else:
+print("Word not in the text.")
 
 # Problem Set 3: String Methods
 # Upper & Lower:
